@@ -24,8 +24,8 @@
     "connect-history-api-fallback": "^1.6.0",
     "gulp": "^4.0.0",
     "gulp-mustache": "^4.1.0",
-    "gulp-sass": "^4.0.2",
-    "node-sass": "^4.11.0",
+    "gulp-sass": "^5.0.0",
+    "node-sass": "^6.0.1",
     "vinyl-source-stream": "^2.0.0",
     "vueify": "^9.4.1"
   }

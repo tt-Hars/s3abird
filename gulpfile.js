@@ -3,7 +3,8 @@
 var browserify = require('browserify');
 var vueify = require('vueify');
 var gulp = require('gulp');
-var Sass = require('gulp-sass');
+
+var Sass = require('gulp-sass')(require('node-sass'));
 var browsersync = require('browser-sync').create();
 var source = require('vinyl-source-stream');
 var historyApiFallback = require('connect-history-api-fallback');
